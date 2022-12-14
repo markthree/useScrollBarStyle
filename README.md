@@ -1,7 +1,7 @@
 <div align="center">
     <img width="100%" height="100%" src="./snapshot.gif" />
     <h1>useScrollBarStyle</h1>
-    <p>响应式地变换滚动条样式 (vue3)</p>
+    <p>响应式可编程的滚动条样式 (vue3)</p>
 </div>
 
 <br />
