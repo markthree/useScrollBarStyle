@@ -56,9 +56,13 @@
 		"vite": "^4.0.1",
 		"vitest": "^0.25.8",
 		"vue": "^3.2.45",
+		"vue-dark-switch": "^0.1.11",
 		"vue-tsc": "^1.0.13"
 	},
 	"peerDependencies": {
 		"vue": ">=3.0.0"
+	},
+	"dependencies": {
+		"@vueuse/core": "^9.6.0"
 	}
 }

@@ -1,4 +1,9 @@
 import 'uno.css'
-import './index.css'
-export { useInc } from './composables/inc'
-export { default as Hello } from './components/Counter.vue'
+export {
+	mount,
+	randomRgba,
+	useScrollBar,
+	createTransformDefaultCssVar
+} from './composables/useScrollBar'
+
+export type { IUseScrollBarOptions } from './composables/useScrollBar'

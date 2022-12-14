@@ -5,7 +5,8 @@ import { name } from './package.json'
 
 export default defineConfig({
 	build: {
-		emptyOutDir: false,
+		emptyOutDir: true,
+		cssCodeSplit: true,
 		lib: {
 			name,
 			entry: './src/exports.ts',
