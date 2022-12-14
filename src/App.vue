@@ -2,14 +2,14 @@
 import { Switch } from 'vue-dark-switch'
 import {
 	randomRgba,
-	useScrollBar
-} from './composables/useScrollBar'
+	useScrollBarStyle
+} from './composables/useScrollBarStyle'
 
 const {
 	width,
 	thumbBackgroundColor,
 	darkThumbBackgroundColor
-} = useScrollBar() // 响应式的
+} = useScrollBarStyle() // 响应式的
 
 width.value = '10px'
 

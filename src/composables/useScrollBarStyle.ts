@@ -86,7 +86,7 @@ export interface IUseScrollBarOptions {
 	darkThumbBackgroundColor: string
 }
 
-export const useScrollBar = createSharedComposable(
+export const useScrollBarStyle = createSharedComposable(
 	function (
 		options: DeepMaybeRef<
 			Partial<IUseScrollBarOptions>

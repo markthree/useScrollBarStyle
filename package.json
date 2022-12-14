@@ -1,5 +1,5 @@
 {
-	"name": "use-scroll-bar",
+	"name": "use-scroll-bar-style",
 	"version": "0.1.0",
 	"description": "响应式地变换滚动条样式 (vue3)",
 	"main": "./dist/index.umd.js",

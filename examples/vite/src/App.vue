@@ -1,12 +1,15 @@
 <script lang="ts" setup>
 import { Switch } from 'vue-dark-switch'
-import { useScrollBar, randomRgba } from 'use-scroll-bar'
+import {
+	useScrollBarStyle,
+	randomRgba
+} from 'use-scroll-bar-style'
 
 const {
 	width,
 	thumbBackgroundColor,
 	darkThumbBackgroundColor
-} = useScrollBar()
+} = useScrollBarStyle()
 
 width.value = '12px'
 

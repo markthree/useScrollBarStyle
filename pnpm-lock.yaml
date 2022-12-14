@@ -38,7 +38,7 @@ importers:
       '@vitejs/plugin-vue': ^4.0.0
       typescript: ^4.9.4
       unocss: ^0.47.6
-      use-scroll-bar: workspace:*
+      use-scroll-bar-style: workspace:*
       vite: ^4.0.1
       vue: ^3.2.45
       vue-dark-switch: ^0.1.11
@@ -49,7 +49,7 @@ importers:
       '@vitejs/plugin-vue': 4.0.0_vite@4.0.1+vue@3.2.45
       typescript: 4.9.4
       unocss: 0.47.6_vite@4.0.1
-      use-scroll-bar: link:../..
+      use-scroll-bar-style: link:../..
       vite: 4.0.1
       vue-dark-switch: 0.1.11_vue@3.2.45
       vue-tsc: 1.0.13_typescript@4.9.4
@@ -567,7 +567,7 @@ packages:
       '@unocss/scope': 0.47.6
       '@unocss/transformer-directives': 0.47.6
       magic-string: 0.27.0
-      vite: 4.0.1
+      vite: 4.0.1_@types+node@18.11.15
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -579,7 +579,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.0.1
+      vite: 4.0.1_@types+node@18.11.15
       vue: 3.2.45
     dev: true
 

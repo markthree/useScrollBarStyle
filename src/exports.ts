@@ -2,8 +2,8 @@ import 'uno.css'
 export {
 	mount,
 	randomRgba,
-	useScrollBar,
+	useScrollBarStyle,
 	createTransformDefaultCssVar
-} from './composables/useScrollBar'
+} from './composables/useScrollBarStyle'
 
-export type { IUseScrollBarOptions } from './composables/useScrollBar'
+export type { IUseScrollBarOptions } from './composables/useScrollBarStyle'

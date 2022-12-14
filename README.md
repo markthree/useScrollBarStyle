@@ -1,8 +1,14 @@
 <div align="center">
     <img width="100%" height="100%" src="./snapshot.gif" />
-    <h1>useScrollBar</h1>
+    <h1>useScrollBarStyle</h1>
     <p>响应式地变换滚动条样式 (vue3)</p>
 </div>
+
+<br />
+
+## Motivation
+
+大多数人都会选择改掉 `web` 原生难看的滚动条样式，但是原生滚动条的选择器实在是复杂。所以有了这个库，当然得益于 `vue3` 的支持，一切都是响应式可编程的，例如你可以根据不同场景变换滚动条的样式，尤其是在 `web` 网站有多主题需求时，一切都会变得简单。
 
 <br />
 
@@ -11,21 +17,21 @@
 ### install
 
 ```shell
-npm i use-scroll-bar
+npm i use-scroll-bar-style
 ```
 
 ### import
 
 ```html
 <script setup lang="ts">
-	import { useScrollBar } from 'use-scroll-bar'
+	import { useScrollBarStyle } from 'use-scroll-bar-style'
 
 	const {
 		width,
 		thumbBackgroundColor,
 		darkThumbBackgroundColor
 		// ... etc
-	} = useScrollBar()
+	} = useScrollBarStyle()
 
 	width.value = '10px' // 宽度
 
