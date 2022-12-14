@@ -1,7 +1,7 @@
 {
 	"name": "use-scroll-bar-style",
-	"version": "0.1.0",
-	"description": "响应式地变换滚动条样式 (vue3)",
+	"version": "0.1.1",
+	"description": "响应式可编程的滚动条样式 (vue3)",
 	"main": "./dist/index.umd.js",
 	"module": "./dist/index.es.js",
 	"types": "./dist/exports.d.ts",
